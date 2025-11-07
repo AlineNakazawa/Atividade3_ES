@@ -2,7 +2,7 @@ def anagrama(string1, string2):
     # TODO
     pass
 
-def cifra_cesar(texto, deslocamento):
+def cifra_de_cesar(texto, deslocamento):
     """
     Aplica a Cifra de César ao texto, preservando minúsculas/maiúsculas e caracteres não-letras.
     """
