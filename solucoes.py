@@ -18,3 +18,8 @@ def cifra_cesar(texto, deslocamento):
 def valida_cpf(cpf):
     # TODO
     pass
+
+# Casos de teste
+print(f'("amor", "roma"): {anagrama("amor", "roma")}')  # Esperado: True
+print(f'("A gentleman", "Elegant man"): {anagrama("A gentleman", "Elegant man")}') # Esperado: True
+print(f'("gato", "cabra"): {anagrama("gato", "cabra")}') # Esperado: False
