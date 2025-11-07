@@ -32,3 +32,7 @@ def cifra_de_cesar(texto, deslocamento):
 def valida_cpf(cpf):
     # TODO
     pass
+
+print(f'("abc", 2): {cifra_de_cesar("abc", 2)}')  # Esperado: "cde"
+print(f'("xyz", 3): {cifra_de_cesar("xyz", 3)}')  # Esperado: "abc"
+print(f'("Ataque ao Amanhecer!", 5): {cifra_de_cesar("Ataque ao Amanhecer!", 5)}') # Esperado: "Fyfvzj ft Frfsmjhmjw!"
